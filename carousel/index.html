@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="carousel">
+        <div class="carousel__item carousel__item--visible">
+            <img src="images/lake.jpg" alt="lake">
+        </div>
+        <div class="carousel__item">
+            <img src="images/landscape.jpg" alt="landscape">
+        </div>
+        <div class="carousel__item">
+            <img src="images/sunset.jpg" alt="sunset">
+        </div>
+        <div class="carousel__actions">
+            <button id="carousel__button--prev" aria-label="previous slide">&lt;</button>
+            <button id="carousel__button--next" aria-label="next-slide">&gt;</button>
+        </div>
+        <div style="text-align:center" class="dot__container">
+            <span class="dot dot__active" id="1"></span>
+            <span class="dot" id="2" ></span>
+            <span class="dot" id="3"></span>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
